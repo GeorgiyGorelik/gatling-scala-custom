@@ -1,4 +1,4 @@
-package example
+package carrier
 
 import io.gatling.core.Predef.configuration
 import io.gatling.http.Predef.http

@@ -1,4 +1,4 @@
-package example
+package carrier
 
 import io.gatling.core.Predef._
 import io.gatling.core.structure.ScenarioBuilder

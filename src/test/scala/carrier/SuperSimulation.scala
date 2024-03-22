@@ -1,4 +1,4 @@
-package example
+package carrier
 
 import io.gatling.core.Predef._
 
@@ -17,7 +17,7 @@ class SuperSimulation extends Simulation {
   }
 
   setUp(
-    example.Scenario.DefaultScenario.inject(atOnceUsers(1))
+    carrier.Scenario.DefaultScenario.inject(atOnceUsers(1))
   ).protocols(Parameters.httpProtocolMain)
 
   after {

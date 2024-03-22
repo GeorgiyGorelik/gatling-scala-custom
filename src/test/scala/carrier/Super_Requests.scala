@@ -1,6 +1,6 @@
-package example
+package carrier
 
-import example.Parameters.{BasePath, protocolType, serverName, httpPort}
+import carrier.Parameters.{BasePath, protocolType, serverName, httpPort}
 import io.gatling.core.Predef._
 import io.gatling.core.feeder.BatchableFeederBuilder
 import io.gatling.http.Predef._
